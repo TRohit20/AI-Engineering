@@ -41,3 +41,4 @@ The model learns how to remove the noise you added in the first place. Just like
 Due to the complex architecture and large number of parameters involved in training diffusion models, they can require significant memory resources, making them less accessible for resource-constrained environments.
 
 ### Sampling
+During sampling, For the model to calculate and subtract the predicted noise, the model takes the input as a distributed noise image. After the first iteration, given the predicted noise is subtracted, the output is not exactly distributed 
